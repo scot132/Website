@@ -1,0 +1,65 @@
+/*=====================*/
+/* Content
+/*=====================*/
+
+.content {
+  width: 90%;
+  margin: auto;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+
+.content {
+  background-color: white;
+}
+
+
+/*=====================*/
+/* Main-Header
+/*=====================*/
+
+.main-logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.main-logo {
+  padding-bottom: 8em;
+  padding-top: 3em;
+}
+
+/*=====================*/
+/* H1/h2/h3..
+/*=====================*/
+
+.text-1, .text-2 {
+  display: inline;
+}
+
+/*=====================*/
+/* Main-gallery
+/*=====================*/
+
+.main-gallery {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.gallery li {
+  display: inline-block;
+  zoom: 1.1;
+  padding: 10px;
+}
+
+.gallery li img {
+  width: 500px;
+  height: 250px;
+}
+
+
+/*=====================*/
+/* Unordered list
+/*=====================*/
