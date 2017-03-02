@@ -20,6 +20,8 @@
 
 .main-logo {
   text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5em;
 }
 
 .logo img {
@@ -27,7 +29,7 @@
 }
 
 .main-logo {
-  padding-bottom: 8em;
+  padding-bottom: 5em;
   padding-top: 3em;
 }
 
@@ -51,7 +53,8 @@
 .gallery li {
   display: inline-block;
   zoom: 1.1;
-  padding: 10px;
+  position: relative;
+  margin: 10px;
 }
 
 .gallery li img {
@@ -61,5 +64,25 @@
 
 
 /*=====================*/
-/* Unordered list
+/* overlay
 /*=====================*/
+
+.photo-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  color:white;
+  font-size: 2em;
+  transition-duration: .4s;
+}
+
+.photo-overlay:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
