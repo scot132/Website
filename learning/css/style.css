@@ -76,9 +76,10 @@
   margin: 0;
   justify-content: center;
   align-items: center;
+  font-size: 2em;
   opacity: 0;
   color:white;
-  font-size: 2em;
+
   transition-duration: .4s;
 }
 

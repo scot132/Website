@@ -1,0 +1,9 @@
+.photo-overlay{
+color:white;
+transition-duration: .4s;
+}
+
+.photo-overlay:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
